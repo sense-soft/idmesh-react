@@ -1,0 +1,39 @@
+{
+  "name": "idmesh-react",
+  "version": "0.9.0",
+  "description": "",
+  "main": "dist/sdk.js",
+  "types": "dist/typings/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rimraf dist && tsc --emitDeclarationOnly && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@codeup.aliyun.com:idmesh/sdk/idmesh-react.git"
+  },
+  "author": "idmesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/browser": "^3.20.2",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "rimraf": "^4.4.1",
+    "rollup": "^3.20.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react-dom": ">=16.11.0"
+  },
+  "dependencies": {
+    "idmesh-spa-js": ">=0.9.0",
+    "react": ">=16.11.0"
+  }
+}
