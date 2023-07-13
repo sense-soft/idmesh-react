@@ -9,11 +9,12 @@
   "scripts": {
     "build": "rimraf dist && tsc --emitDeclarationOnly && rollup -c"
   },
+  "author": "sense-soft",
+  "homepage": "https://github.com/sense-soft/idmesh-react",
   "repository": {
     "type": "git",
-    "url": "git@codeup.aliyun.com:idmesh/sdk/idmesh-react.git"
+    "url": "git@github.com:sense-soft/idmesh-react.git"
   },
-  "author": "idmesh",
   "license": "ISC",
   "devDependencies": {
     "@rollup/browser": "^3.20.2",
